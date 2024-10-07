@@ -1,0 +1,68 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url("forest.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.checkbox{
+    display: inline-block;
+    
+}
+.register{
+    display:inline-block;
+    position: relative;
+    left:3px
+}
+#container{
+    width:380px;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    display: flex;
+    border: 1px solid black;
+    border-radius: 7px;
+    
+    justify-content: center;
+}
+form{
+    width:380px;
+}
+#login{
+    position:relative;
+    top:-12px;
+    left:10px;
+}
+#username{
+    position: relative;
+    top: -15px;
+}
+.input{
+    width:340px;
+    height: 30px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+#forget_me{
+    position: relative;
+    right:-145px;
+
+}
+.box{
+    display:flex;
+    justify-content:center;
+}
+#login_button{
+    width:380px;
+    height:30px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+#register{
+    position: relative;
+    right:-145px;
+    text-decoration:none;
+}
